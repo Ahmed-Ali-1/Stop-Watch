@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alan Sans", sans-serif;
+}
+
+body {
+    background-color: #acd2f9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.container>h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.stopWatch {
+    display: flex;
+    gap: 14px;
+    background-color: #87aacd;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 00px 20px 40px 8px #7dacdb;
+}
+
+.stopWatch p {
+    color: #fff;
+    font-size: 44px;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonDiv button {
+    background-color: #a5c5e5;
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0px 0px 40px 4px #fff;
+}
