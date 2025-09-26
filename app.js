@@ -74,8 +74,15 @@ function stop() {
 
 function reset() {
     clearInterval(interval)
+    hour = 0
+    minute = 0
+    second = 0
+    milisecond = 0
+
     getMinute.innerText = "00"
     getSecond.innerText = "00"
     getMilisecond.innerText = "00"
     getHour.innerText = "00"
+
+    startButton.disabled = false
 }
