@@ -25,8 +25,9 @@ body {
 .container>h2 {
     color: #fff;
     text-align: center;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 600;
+
 }
 
 .stopWatch {
@@ -57,4 +58,5 @@ body {
     border-radius: 50px;
     color: #fff;
     box-shadow: 0px 0px 40px 4px #fff;
+    font-size: 20px;
 }

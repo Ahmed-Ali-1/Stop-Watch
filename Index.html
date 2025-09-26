@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -12,16 +15,20 @@
     <div class="container">
         <h2>STOPWATCH</h2>
         <div class="stopWatch">
+
+            <p id="hour">00</p>
+            <p>:</p>
             <p id="minute">00</p>
             <p>:</p>
             <p id="second">00</p>
             <p>:</p>
             <p id="milisecond">00</p>
+
         </div>
         <div class="buttonDiv">
-            <button onclick="start()" id="startBtn">Start</button>
-            <button onclick="stop()">Stop</button>
-            <button onclick="reset()">Reset</button>
+            <button onclick="stop()"><i class="fa-solid fa-stop"></i></button>
+            <button onclick="start()" id="startBtn"><i class="fa-solid fa-play"></i></button>
+            <button onclick="reset()"><i class="fa-solid fa-retweet"></i></button>
         </div>
     </div>
 
