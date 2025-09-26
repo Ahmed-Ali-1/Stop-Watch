@@ -22,11 +22,10 @@ body {
     gap: 34px;
 }
 
-.container>h2 {
+.container>h1 {
     color: #fff;
     text-align: center;
-    font-size: 42px;
-    font-weight: 600;
+    font-size: 46px;
 
 }
 
@@ -35,7 +34,9 @@ body {
     gap: 14px;
     background-color: #87aacd;
     justify-content: center;
-    padding: 40px;
+    /* padding: 40px; */
+    width: 360px;
+    height: 160px;
     align-items: center;
     border-radius: 16px;
     box-shadow: 00px 20px 40px 8px #7dacdb;
@@ -43,7 +44,8 @@ body {
 
 .stopWatch p {
     color: #fff;
-    font-size: 44px;
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .buttonDiv {
@@ -59,4 +61,22 @@ body {
     color: #fff;
     box-shadow: 0px 0px 40px 4px #fff;
     font-size: 20px;
+}
+
+#milisecond {
+    display: none;
+}
+
+@media(max-width: 520px) {
+    .container>h1 {
+        font-size: 40px;
+    }
+
+    .stopWatch {
+        width: 290px;
+    }
+
+    .stopWatch p {
+        font-size: 46px;
+    }
 }
