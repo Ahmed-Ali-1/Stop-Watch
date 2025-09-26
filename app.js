@@ -34,7 +34,7 @@ function start() {
 
         }
 
-        if (second == 61) {
+        if (second == 60) {
             minute++
             if (minute < 10) {
                 getMinute.innerText = "0" + minute
